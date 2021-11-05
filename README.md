@@ -18,7 +18,13 @@ npm install babel-auto-tracker or  yarn add babel-auto-tracker -D
     ...
   ],
   "plugins": [
-    "babel-auto-tracker"
+    // 引入自动埋点插件
+    [
+      "babel-auto-tracker",
+      {
+        pathName: path.resolve(__dirname, 'xx/xxx/utils/tracker'), // 引入埋点方法的文件路径
+      }
+    ]
   ]
 }
 ```
