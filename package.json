@@ -1,8 +1,17 @@
 {
-  "name": "babel-plugins",
-  "version": "1.0.0",
+  "name": "babel-auto-tracker",
+  "version": "0.0.1",
   "main": "index.js",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jialongsu/babel-auto-tracker.git"
+  },
+  "author": "arno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jialongsu/babel-auto-tracker/issues"
+  },
+  "homepage": "https://github.com/jialongsu/babel-auto-tracker#readme",
   "dependencies": {
     "@babel/generator": "^7.16.0",
     "@babel/helper-module-imports": "^7.16.0",
