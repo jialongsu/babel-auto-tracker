@@ -1,0 +1,11 @@
+{
+  "name": "babel-plugins",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/generator": "^7.16.0",
+    "@babel/helper-module-imports": "^7.16.0",
+    "@babel/code-frame": "^7.16.0"
+  }
+}
